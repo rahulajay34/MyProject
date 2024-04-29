@@ -11,6 +11,7 @@ import {
 import { NavLink } from "react-router-dom";
 import SignIn from "../../pages/login/SignIn";
 import SignUp1 from "../../pages/login/SignUp";
+import myImage from "../../../src/components/assets/home-new-lenskart-logo.jpeg";
 
 export function ScaleFadeEx() {
   const { isOpen, onToggle } = useDisclosure();
@@ -53,11 +54,7 @@ const MiddleNavbar = () => {
       </Box>
       <Box display={["block", "block", "none", "none"]} mt={3} pr={2}>
         <NavLink to={"/"}>
-          <Image
-            h={"30"}
-            src="/src/components/assets/home-new-lenskart-logo.jpeg"
-            alt="Lenskart Logo"
-          />
+          <Image h={"30"} src={myImage} alt="Lenskart Logo" />
         </NavLink>
       </Box>
 
