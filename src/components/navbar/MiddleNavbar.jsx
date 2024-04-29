@@ -55,7 +55,7 @@ const MiddleNavbar = () => {
         <NavLink to={"/"}>
           <Image
             h={"30"}
-            src="../../../src/components/assets/home-new-lenskart-logo.jpeg"
+            src="/src/components/assets/home-new-lenskart-logo.jpeg"
             alt="Lenskart Logo"
           />
         </NavLink>
